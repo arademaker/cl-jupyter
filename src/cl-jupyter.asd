@@ -9,6 +9,7 @@
                :uuid
                :babel
                :ironclad
+	       :cl-conllu
                :cl-base64)
   :serial t
   :components ((:file "packages")

@@ -42,7 +42,7 @@
 ;; in production (?)
 ;;(declaim (optimize (speed 3) (space 0) (debug 0) (safety 2)))
 
-(ql:quickload "cl-jupyter")
+(ql:quickload :cl-jupyter)
 
 (in-package #:cl-jupyter-user)
 
